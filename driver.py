@@ -20,6 +20,7 @@ while(1):
         choice = int(input(""))
         if choice >=1 and choice < 3:
             isorted = insertion.Sort(extracted_data, choice)
+#             The file has been sorted. You may store it back into a CSV if you like
         else:
             print("invalid column number")
     except:
